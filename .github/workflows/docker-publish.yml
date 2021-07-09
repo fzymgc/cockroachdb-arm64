@@ -25,7 +25,7 @@ env:
 jobs:
   build:
 
-    runs-on: [Linux, ARM64]
+    runs-on: [self-hosted, Linux, ARM64]
     permissions:
       contents: read
       packages: write
